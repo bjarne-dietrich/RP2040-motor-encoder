@@ -10,7 +10,7 @@ It should work as long as the encoder has two outputs giving pulses.
 The period is measured from rising edge to rising edge of the first pin.
 The direction is measured by looking at the phase difference between both signals.
 
-The first GPIO to be used can be chosen. the second GPIO has to be first_pin+1;
+The first GPIO to be used can be chosen. the second GPIO has to be first_pin+1.
 
 Direction 0:
 <br><img width="400px" src="./img/Scope2.png" alt="scope showing to pulses with pulse 1 running 90° prior to pulse 2" />
