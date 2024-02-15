@@ -13,10 +13,10 @@ The direction is measured by looking at the phase difference between both signal
 The first GPIO to be used can be chosen. the second GPIO has to be first_pin+1;
 
 Direction 0:
-<br><img width="400px" src="./img/OS2.png" alt="scope showing to pulses with pulse 1 running 90° prior to pulse 2" />
+<br><img width="400px" src="./img/Scope2.png" alt="scope showing to pulses with pulse 1 running 90° prior to pulse 2" />
 
 Direction 1:
-<br><img width="400px" src="./img/OS1.png" alt="scope showing to pulses with pulse 1 running 90° after pulse 2" />
+<br><img width="400px" src="./img/Scope1.png" alt="scope showing to pulses with pulse 1 running 90° after pulse 2" />
 
 Encoders are normally giving more than one pulse per motor revolution. (in my case N=11)<br>
 So for getting the frequency of the motor you calculate 1 / (period_us*N).
