@@ -202,8 +202,8 @@ void MotorEncoder::init_interrupt()
     }
     else
     {
-        irq_set_exclusive_handler(PIO0_IRQ_0, pio_irq_handler);
-        irq_set_enabled(PIO0_IRQ_0, true);
+        irq_set_exclusive_handler(PIO1_IRQ_0, pio_irq_handler);
+        irq_set_enabled(PIO1_IRQ_0, true);
     }
 
     _pio->inte0 = PIO_IRQ0_INTE_SM0_BITS | PIO_IRQ0_INTE_SM1_BITS | PIO_IRQ0_INTE_SM2_BITS | PIO_IRQ0_INTE_SM3_BITS ;
